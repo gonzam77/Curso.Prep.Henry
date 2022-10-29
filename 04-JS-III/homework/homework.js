@@ -135,8 +135,6 @@ function multiplicarArgumentos() {
   var producto = 1;
   if (arguments.length == 0) {
     return 0;
-  } else if (arguments == 1) {
-    return arguments;
   } else {
     for (let i = 0; i < arguments.length; i++) {
       var producto = arguments[i] * producto;
